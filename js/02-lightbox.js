@@ -14,3 +14,4 @@ import { galleryItems } from './gallery-items.js';
   gallery.insertAdjacentHTML('beforeend', elements);
   var lightbox = new SimpleLightbox('.gallery a', {captionsData:"alt", captionDelay:250});
 })();
+
